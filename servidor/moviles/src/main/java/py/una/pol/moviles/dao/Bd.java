@@ -1,4 +1,4 @@
-package py.una.pol.personas.dao;
+package py.una.pol.moviles.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

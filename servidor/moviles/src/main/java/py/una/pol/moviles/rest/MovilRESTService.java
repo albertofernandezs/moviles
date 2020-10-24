@@ -1,4 +1,4 @@
-package py.una.pol.personas.rest;
+package py.una.pol.moviles.rest;
 
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -20,15 +20,15 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import py.una.pol.personas.model.Movil;
-import py.una.pol.personas.service.MovilService;
+import py.una.pol.moviles.model.Movil;
+import py.una.pol.moviles.service.MovilService;
 
 
 
 /**
  * JAX-RS Example
  * <p/>
- * Esta clase produce un servicio RESTful para leer y escribir contenido de personas
+ * Esta clase produce un servicio RESTful para leer y escribir contenido de moviles
  */
 @Path("/moviles")
 @RequestScoped

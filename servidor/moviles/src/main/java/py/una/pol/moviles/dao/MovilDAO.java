@@ -1,4 +1,4 @@
-package py.una.pol.personas.dao;
+package py.una.pol.moviles.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import py.una.pol.personas.model.Movil;
+import py.una.pol.moviles.model.Movil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

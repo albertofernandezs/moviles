@@ -1,10 +1,10 @@
-package py.una.pol.personas.service;
+package py.una.pol.moviles.service;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import py.una.pol.personas.dao.MovilDAO;
-import py.una.pol.personas.model.Movil;
+import py.una.pol.moviles.dao.MovilDAO;
+import py.una.pol.moviles.model.Movil;
 
 import java.util.ArrayList;
 import java.util.List;

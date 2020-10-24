@@ -1,4 +1,4 @@
-package py.una.pol.personas.model;
+package py.una.pol.moviles.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
