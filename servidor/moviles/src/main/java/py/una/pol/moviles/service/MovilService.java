@@ -31,10 +31,12 @@ public class MovilService {
 	        log.info("Movil creado con éxito: " + m.getId() + " " + m.getTipo() );
 	  }
 	 public List<Movil> seleccionar() {
+		 	log.info("Lista de moviles");
 	    	return dao.seleccionar();
 	 }
 	 
 	 public Movil seleccionarId(Long id) {
+		 	log.info("Movil seleccionado por id");
 	    	return dao.seleccionarPorId(id);
 	    }
 	 
@@ -50,6 +52,7 @@ public class MovilService {
 	 }
 	 
 	 public List<Movil> listar_por_ubicacion(Double latitud, Double longitud, int metros){
+		 log.info("Listando moviles por ubicacion");
 		 List<Movil> lista= dao.seleccionar();
 		 List<Movil> listaFinal= new ArrayList<Movil>();
 		 for(Movil m: lista) {
@@ -60,6 +63,7 @@ public class MovilService {
 				 }
 			 }
 		 }
+		 log.info("Lista mostrada");
 		 return listaFinal;
 		 
 	 }
